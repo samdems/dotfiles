@@ -1,0 +1,36 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-debugger":
+      showDebuggerOnBpSet: false
+  "browser-refresh": {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "city-lights-ui"
+      "city-lights-syntax"
+    ]
+  editor:
+    fontFamily: "roboto mono, noto mono"
+    fontSize: 19
+  "exception-reporting":
+    userId: "59bdeca3-3163-45e2-a8d7-a11c1c9f225c"
+  "git-blame":
+    columnWidth: 285
+  "linter-js-standard":
+    lintHtmlFiles: true
+  "linter-ui-default":
+    panelHeight: 364
+  "open-terminal-here":
+    command: "sakura"
+  "php-debug":
+    server:
+      keepAlive: true
+    showWelcome: false
+    xdebug:
+      pathMaps: "[{\"remotePath\":\"/home/sam/code/audit-api/app/Listeners/\",\"localPath\":\"/home/sam/code/audit-api/\"},{\"remotePath\":\"/home/sam/code/audit-api/\",\"localPath\":\"/home/sam/code/audit-api/\"},{\"remotePath\":\"/home/sam/code/audit-api\",\"localPath\":\"/home/sam/code/audit-api\"},{\"remotePath\":\"/home/sam/code/audit-api/public\",\"localPath\":\"/home/sam/code/audit-api/public\"}]"
+  welcome:
+    showOnStartup: false

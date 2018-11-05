@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+        "spec": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118820-13521-o8nx55.m7x6v9rudi"
+    ]
+  ],
+  "_from": "../d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+  "_id": "pinned-tabs@2.1.0",
+  "_inCache": true,
+  "_location": "/pinned-tabs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+    "spec": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+  "_shasum": "e8a7ffa42b890a6ff38f1d7e5d2cb2637a6b81b6",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118820-13521-1rmtppq.olbi3haor/package.tgz",
+  "_where": "/tmp/apm-install-dir-118820-13521-o8nx55.m7x6v9rudi",
+  "atomTestRunner": "atom-mocha",
+  "bugs": {
+    "url": "https://github.com/ericcornelissen/pinned-tabs-for-atom/issues"
+  },
+  "configSchema": {
+    "animated": {
+      "type": "boolean",
+      "default": true,
+      "order": 1,
+      "title": "Enable animations",
+      "description": "Tick this to enable all animation related to pinned tabs"
+    },
+    "closeUnpinned": {
+      "type": "boolean",
+      "default": false,
+      "order": 2,
+      "title": "Enable the 'Close Unpinned Tabs' option",
+      "description": "Tick this to show the 'Close Unpinned Tabs' from the context menu"
+    },
+    "modified": {
+      "type": "string",
+      "default": "always",
+      "order": 3,
+      "title": "Modified indicator",
+      "enum": [
+        {
+          "value": "dont",
+          "description": "Don't use this feature"
+        },
+        {
+          "value": "hover",
+          "description": "Only show this when I hover over the tab"
+        },
+        {
+          "value": "always",
+          "description": "Always show this when a tab is modified"
+        }
+      ]
+    },
+    "visualstudio": {
+      "type": "object",
+      "title": "Visual Studio style pinning",
+      "description": "Options for...",
+      "order": 4,
+      "properties": {
+        "enable": {
+          "type": "boolean",
+          "default": false,
+          "order": 1,
+          "title": "Enable VS style pinning"
+        },
+        "minimumWidth": {
+          "type": "integer",
+          "default": 180,
+          "minimum": 0,
+          "order": 2,
+          "title": "Minimum width for pinned tabs"
+        }
+      }
+    }
+  },
+  "dependencies": {},
+  "description": "An Atom package that allows you to pin tabs",
+  "devDependencies": {
+    "atom-coverage": "^1.1.2",
+    "atom-mocha": "^2.0.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^5.0.1",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.10.0",
+    "husky": "^0.14.3",
+    "nyc": "^13.0.1",
+    "rimraf": "^2.6.2",
+    "sinon": "^6.2.0",
+    "sinon-chai": "^3.2.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ericcornelissen/pinned-tabs-for-atom#readme",
+  "keywords": [
+    "pinned",
+    "pin",
+    "tabs"
+  ],
+  "license": "MIT",
+  "main": "./lib/pinned-tabs",
+  "name": "pinned-tabs",
+  "optionalDependencies": {},
+  "readme": "# Pinned tabs for Atom\n\n[![Build Status](https://travis-ci.org/ericcornelissen/pinned-tabs-for-atom.svg?branch=master)](https://travis-ci.org/ericcornelissen/pinned-tabs-for-atom)\n[![Maintainability](https://api.codeclimate.com/v1/badges/e7d6b69e47a27a0a6ef0/maintainability)](https://codeclimate.com/github/ericcornelissen/pinned-tabs-for-atom/maintainability)\n[![Test Coverage](https://api.codeclimate.com/v1/badges/e7d6b69e47a27a0a6ef0/test_coverage)](https://codeclimate.com/github/ericcornelissen/pinned-tabs-for-atom/test_coverage)\n\nA simple package for the Atom text editor from GitHub that allows you to pin tabs. Inspired by the pin tab feature from Browsers, also supports Visual Studio style pinning.\n\nFor the best experience of this package, I recommend using it with the [file-icons](https://atom.io/packages/file-icons) package.\n\n![preview gif](http://i.imgur.com/zdzpBnd.gif)\n\n* * *\n\n## Usage\nThere are three ways to pin/unpin a tab using this package.\n- Via the context menu of a tab.\n- Via the keyboard shortcut <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>.\n- Via the command-palette, by typing `Pin Active`.\n\n* * *\n\n## Installation\nVia the Atom Package Manager (APM)\n```bash\n$ apm install pinned-tabs\n```\n\nOr via Git clone\n```bash\n$ cd ~/.atom/packages\n$ git clone https://github.com/ericcornelissen/pinned-tabs-for-atom --depth=1\n```\n\n* * *\n\n## Customization\nYou can add custom styles for pinned tabs. Use your [Stylesheet](https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks) and target `.tab.pinned-tab` to tweak a pinned tab. You can consult the [package stylesheet](./styles/pinned-tabs.less) to see what classes are used.\n\nBelow are a few examples of ways to customize the styling of pinned tabs.\n\n#### Style the active pinned tab\n```css\n.tab.pinned-tab.active {\n  background-color: salmon;\n}\n\n/* Or all non active pinned tabs */\n.tab.pinned-tab:not(.active) {\n  background-color: olive;\n}\n```\n\n#### Choose your own icon for pinned tabs\n```css\n.tab.pinned-tab > .title::before {\n  content: '\\f135';\n  font-family: FontAwesome;\n  font-size: 18px;\n}\n```\n\nIf you're using file-icons, you can check out its [customization documentation](https://github.com/file-icons/atom#customisation) as well.\n\n#### Change the 'pinned' icon for Visual Studio mode\n```css\n.tab.pinned-tab > .close-icon::before {\n  content: '\\f276';\n  font-family: FontAwesome;\n  font-size: 12px;\n}\n```\n\n#### Style tabs that are not pinned\n```css\n.tab:not(.pinned-tab):not([data-type=\"TreeView\"]):not([data-type=\"PanelDock\"]):not([data-type=\"Object\"]) {\n  opacity: 0.5;\n}\n```\n\nWhere the different `:not([data-type])` exclude tabs elsewhere in Atom.\n\n* * *\n\nCopyright © Eric Cornelissen | MIT license\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericcornelissen/pinned-tabs-for-atom.git"
+  },
+  "scripts": {
+    "check:coverage": "nyc check-coverage",
+    "clean": "rimraf coverage/",
+    "lint": "eslint lib/*.js spec/*.js",
+    "precommit": "npm run lint",
+    "test": "atom --test spec",
+    "test:coverage": "atom-coverage"
+  },
+  "version": "2.1.0"
+}

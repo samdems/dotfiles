@@ -1,0 +1,218 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+        "spec": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118820-22420-qildx9.1ga4f5hfr"
+    ]
+  ],
+  "_from": "../d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+  "_id": "atom-typescript@12.6.3",
+  "_inCache": true,
+  "_location": "/atom-typescript",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+    "spec": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+  "_shasum": "926a50865561e7ebba2ad554ce943f7ff81ad533",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118820-22420-10d3az4.v9ag2gwrk9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118820-22420-qildx9.1ga4f5hfr",
+  "activationCommands": {
+    "atom-workspace": [
+      "typescript:initialize-config"
+    ]
+  },
+  "activationHooks": [
+    "language-typescript:grammar-used"
+  ],
+  "atomTestRunner": "./node_modules/atom-ts-spec-runner/runner.js",
+  "bugs": {
+    "url": "https://github.com/TypeStrong/atom-typescript/issues"
+  },
+  "configSchema": {
+    "unusedAsInfo": {
+      "title": "Show unused values with severity info",
+      "description": "Show unused values with severity 'info' instead of 'error'",
+      "type": "boolean",
+      "default": true,
+      "order": 90
+    },
+    "autocompletionSuggestionPriority": {
+      "description": "Snippets etc have priority of 1. Requires Atom restart",
+      "type": "integer",
+      "default": 3,
+      "order": 20
+    },
+    "locale": {
+      "title": "TypeScript locale",
+      "description": "Use this locale for TypeScript messages (e.g. 'de'). Requires Atom restart",
+      "type": "string",
+      "default": "en",
+      "order": 50
+    },
+    "buildStatusTimeout": {
+      "title": "Build status visibility timeout",
+      "description": "How long to show successful build status, in seconds. Failed status will be shown indefinitely. Negative means forever",
+      "type": "number",
+      "default": "10",
+      "order": 60
+    },
+    "showSemanticView": {
+      "title": "Show semantic view",
+      "description": "Show semantic view (outline) for typescript content",
+      "type": "boolean",
+      "default": false,
+      "order": 70
+    },
+    "tooltipDelay": {
+      "title": "Type tooltip delay",
+      "description": "Delay before type tooltip is shown on mouse hover in milliseconds",
+      "type": "integer",
+      "default": 100,
+      "order": 60
+    },
+    "ignoredDiagnosticCodes": {
+      "title": "Ignore diagnostics",
+      "description": "List of diagnostic codes to ignore, comma-separated. Refer to [diagnosticMessages.json](https://github.com/Microsoft/TypeScript/blob/master/src/compiler/diagnosticMessages.json) for diagnostic codes",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [],
+      "order": 80
+    },
+    "ignoreUnusedSuggestionDiagnostics": {
+      "title": "Ignore 'unused parameter/variable/etc' suggestion diagnostics",
+      "description": "When `noUnusedLocals` etc are disabled, TypeScript 2.9 and above still report this as 'suggestions'. This option will filter these out",
+      "type": "boolean",
+      "default": "false",
+      "order": 100
+    },
+    "suppressAllDiagnostics": {
+      "title": "Suppress all diagnostics",
+      "description": "The package will not report any problems with TypeScript. Use only if you know what you are doing",
+      "type": "boolean",
+      "default": "false",
+      "order": 120
+    }
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "^2.0.0": "consumeLinter"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-highlight": "^0.4.1",
+    "atom-package-deps": "^4.6.2",
+    "atom-select-list": "^0.7.1",
+    "byline": "^5.0.0",
+    "escape-html": "^1.0.3",
+    "etch": "^0.14.0",
+    "fuzzaldrin": "^2.1.0",
+    "lodash": "^4.17.10",
+    "resolve": "^1.8.1",
+    "tsconfig": "^7.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "~2.9.2"
+  },
+  "description": "The only TypeScript plugin you will ever need.",
+  "deserializers": {
+    "atomts-semantic-view/SemanticView": "deserializeSemanticView"
+  },
+  "devDependencies": {
+    "@types/atom": "~1.28",
+    "@types/byline": "^4.2.31",
+    "@types/chai": "^4.1.4",
+    "@types/fuzzaldrin": "^2.1.1",
+    "@types/lodash": "^4.14.116",
+    "@types/mocha": "^2",
+    "@types/node": "^8",
+    "@types/resolve": "^0.0.8",
+    "atom-ts-spec-runner": "^1.1.1",
+    "chai": "^4.1.2",
+    "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-language-service": "^0.9.9"
+  },
+  "engines": {
+    "atom": ">=1.27.0 <2.0.0",
+    "node": "*"
+  },
+  "homepage": "https://github.com/TypeStrong/atom-typescript",
+  "keywords": [
+    "typescript",
+    "javascript",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/main/atomts",
+  "name": "atom-typescript",
+  "optionalDependencies": {},
+  "package-deps": [
+    "atom-ide-ui:0.5.3"
+  ],
+  "preferGlobal": true,
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "provideHyperclick"
+      }
+    },
+    "intentions:list": {
+      "versions": {
+        "1.0.0": "provideIntentions"
+      }
+    },
+    "code-actions": {
+      "versions": {
+        "0.1.0": "provideCodeActions"
+      }
+    }
+  },
+  "readme": "# Atom TypeScript\n\n[![Join the chat at\nhttps://gitter.im/TypeStrong/atom-typescript](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TypeStrong/atom-typescript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\nJavaScript developers can now just open a `.ts` file and start hacking\naway like they are used to. No `grunt` no `Visual Studio`. Just pure\ncoding.\n\n**NOTE**: When updating to **v12**, make sure `language-typescript` core\npackage is **enabled**. We're discontinuing our own grammar in favor of\n`language-typescript`. Both are very similar and are basically\nMicrosoft's TextMate grammar repackaged, and there's little reason to\nbundle our own if there's one available by default.\n\n**NOTE**: This branch contains a major rewrite (**v11**) of the\n`atom-typescript` plugin that is lighter and faster, but lacks a few\nmajor features that you might miss. The previous version is still\navailable in the `legacy` branch and will continue to receive minor\nbugfixes, but I wouldn't count on any new developments.\n\n## Installation\n\n1.  Install [atom](https://atom.io).\n2.  Install dependencies (see below)\n3.  `apm install atom-typescript` (`apm` needs `git` in your path)\n4.  Fire up atom. Open a TypeScript file.\n\n**Dependencies**:\n\nAtom-TypeScript relies on some external packages for providing some of\nits GUI. You basically have two options.\n\n**Option 1**: Install `atom-ide-ui` package.\n\n**Option 2**: Install the following packages:\n\n-   `linter`\n-   `linter-ui-default`\n-   `hyperclick`\n-   `intentions`\n\n**Additional Notes**: [Some packages we\nlove](https://github.com/TypeStrong/atom-typescript/blob/master/docs/packages.md).\n\n## Reviews\n\n*Featured on the TypeScript home page under tools\nhttp://www.typescriptlang.org/* and [demoed by **Anders\nHejlsberg**](https://twitter.com/schwarty/status/593858817894404096).\n\n\"I was shocked at how good it felt to poke around on the compiler with\nit.\" [Jonathan Turner](https://twitter.com/jntrnr) \"And guess what, it\nworked perfectly. Like everything else! Faster than Visual Studio!\"\n[Daniel\nEarwicker](http://stackoverflow.com/users/27423/daniel-earwicker) \"It's\na thing of beauty - they had me at '*Type information on hover*'.\nDiscovering `tsconfig.json` support as well was just an enormous bonus.\"\n[John Reilly](https://twitter.com/johnny_reilly) \"This may be your best\noption for editing TypeScript at the moment - very nice!\" [Rasmus\nSchultz](https://twitter.com/mindplaydk)\n\n[*Add yours!*](https://github.com/TypeStrong/atom-typescript/issues/66)\n\n# Features\n\n-   Autocomplete\n-   Live error analysis\n-   Type information on hover\n-   Compile on save\n-   Project Context Support (`tsconfig.json`)\n-   Project Build Support\n-   `package.json` Support\n-   Goto Declaration\n-   Find References\n-   Semantic view\n-   Block comment and uncomment\n-   Rename refactoring\n-   Common Snippets\n-   Alternative to symbols-view\n\n# FAQ\n\nLocated online :\nhttps://github.com/TypeStrong/atom-typescript/blob/master/docs/faq.md\n\n------------------------------------------------------------------------\n\n# Feature Details\n\n## Auto Complete\n\nInternally using AutoComplete+. Just start typing and hints will show\nup. Or you can explicitly trigger it using `ctrl+space` or `cmd+space`.\nPress `tab` to make a selection.\n\n## Type information on hover\n\nJust hover\n\n![you definitely get the\npoint](https://raw.githubusercontent.com/TypeStrong/atom-typescript/master/docs/screens/hover.png)\n\n## Compile on save\n\nWhen `\"compileOnSave\": true` is set in `tsconfig.json`, TypeScript files\nwill be compiled and saved automatically. The compiler does its best to\nemit something, even if there are semantic errors in the file.\n\n## Project Support\n\n`atom-typescript` supports all the same options the TypeScript compiler\ndoes as it's using it behind the scenes to do all of the heavy lifting.\nIn fact, `atom-typescript` will use the exact version of TypeScript you\nhave installed in your `node_modules` directory.\n\n## Format Code\n\nShortcut : `ctrl+alt+l` or `cmd+alt+l`. Will format just the selection\nif you have something selected otherwise it will format the entire file.\n\n## Go to Declaration\n\nShortcut : `F12`. Will open the *first* declaration of the said item for\nnow. (Note: some people call it Go to Definition)\n\n## Find References\n\nShortcut `shift+F12`. Also called *find usages*.\n\n## Semantic View\n\nA bird's eye view of the current file. Use command\n`toggle semantic view`. The view updates while you edit the code. You\ncan also click to jump to any portion of the file.\n\n![](https://raw.githubusercontent.com/TypeStrong/atom-typescript-examples/master/screens/semanticView.png)\n\n## Refactoring\n\n### Rename\n\n`f2` to initiate rename. `enter` to commit and `esc` to cancel.\n![](https://raw.githubusercontent.com/TypeStrong/atom-typescript/master/docs/screens/renameRefactoring.png)\n\n## Quick Fix\n\nShortcut : `ctrl+enter` on a Mac and `alt+enter` for Windows and Linux\nwhen using `intentions`, `alt+a` when using `atom-ide-ui`. Currently\navailable codefixes:\nhttps://github.com/Microsoft/TypeScript/tree/master/src/services/codefixes\n\n## Alternative to symbols-view\n\nAtom's `symbols-view` package only works with `ctags`. This is obviously\nunsuitable for TypeScript. Hence, we provide two commands to emulate\n`symbols-view`:\n\n-   `typescript:toggle-file-symbols`\n-   `typescript:toggle-project-symbols`\n\nBoth are bound to the same keys as corresponding `symbols-view` commands\nby default:\n\n-   `ctrl-r` and `ctrl-shift-r` on PC\n-   `cmd-r` and `cmd-shift-r` on Mac\n\n## Contributing\n\nLook at\n[CONTRIBUTING.md](https://github.com/TypeStrong/atom-typescript/blob/master/CONTRIBUTING.md)\nfor curiosity. We work hard to keep the code as approachable as possible\nand are highly keen on helping you help us.\n\n## Changelog\n\nBreaking changes [available\nonline](https://github.com/TypeStrong/atom-typescript/blob/master/CHANGELOG.md).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeStrong/atom-typescript.git"
+  },
+  "scripts": {
+    "build": "tsc -p ./lib",
+    "lint": "tslint --project ./lib && tslint --project ./spec",
+    "prettier": "ts-node scripts/prettier.ts write",
+    "prettier-check": "ts-node scripts/prettier.ts check",
+    "test": "npm run typecheck && npm run lint && npm run prettier-check",
+    "typecheck": "tsc --noEmit -p ./lib && tsc --noEmit -p ./scripts && tsc --noEmit -p ./spec"
+  },
+  "version": "12.6.3"
+}

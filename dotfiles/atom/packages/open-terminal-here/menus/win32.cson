@@ -1,0 +1,7 @@
+'context-menu':
+  '.platform-win32 .tree-view, .platform-win32 atom-text-editor': [
+    {
+      label: 'Open Terminal Here',
+      command: 'open-terminal-here:open'
+    }
+  ]

@@ -1,0 +1,5 @@
+[2018-09-19 11:19:27.077] [renderer1] [info] no standard startup: not just one text editor
+[2018-09-19 11:19:27.102] [renderer1] [error] Failed to watch /home/sam/.config/Code/User for changes (Error: watch /home/sam/.config/Code/User ENOSPC)
+[2018-09-19 11:19:27.210] [renderer1] [error] Failed to watch /home/sam/.config/Code/logs/20180919T111924/output_1_20180919T111926 for changes (Error: watch /home/sam/.config/Code/logs/20180919T111924/output_1_20180919T111926 ENOSPC)
+[2018-09-19 11:19:27.296] [renderer1] [error] Failed to watch /home/sam/.config/Code/User/snippets for changes (Error: watch /home/sam/.config/Code/User/snippets ENOSPC)
+[2018-09-19 11:19:27.575] [renderer1] [error] Inotify limit reached (ENOSPC)

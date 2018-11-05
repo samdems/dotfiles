@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+        "spec": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11891-522-magizl.i0y1dr6bt9"
+    ]
+  ],
+  "_from": "../d-11891-522-ratq1m.riasckgldi/package.tgz",
+  "_id": "ide-vue@0.1.9",
+  "_inCache": true,
+  "_location": "/ide-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+    "spec": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11891-522-ratq1m.riasckgldi/package.tgz",
+  "_shasum": "f58f663c6b646f1ca54bdd28428985085c403c4b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11891-522-ratq1m.riasckgldi/package.tgz",
+  "_where": "/tmp/apm-install-dir-11891-522-magizl.i0y1dr6bt9",
+  "author": {
+    "name": "Ryan Watts",
+    "email": "ryandwatts@gmail.com",
+    "url": "https://github.com/rwatts3"
+  },
+  "bugs": {
+    "url": "https://github.com/rwatts3/atom-ide-vue/issues"
+  },
+  "configSchema": {
+    "additionalGrammars": {
+      "type": "array",
+      "title": "Register Additional Grammars",
+      "default": [],
+      "description": "Register additional grammars"
+    }
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-languageclient": "^0.9.5",
+    "vue-language-server": "^0.0.31"
+  },
+  "description": "Vue language support for Atom-IDE.",
+  "devDependencies": {
+    "@types/atom": "1.27.0",
+    "@types/node": "^10.3.0"
+  },
+  "engines": {
+    "atom": ">=1.19.0"
+  },
+  "enhancedScopes": [
+    "text.html.vue"
+  ],
+  "homepage": "https://github.com/rwatts3/atom-ide-vue#readme",
+  "keywords": [
+    "atom-ide",
+    "vue",
+    "lsp",
+    "language-client"
+  ],
+  "license": "MIT",
+  "main": "./src/main",
+  "name": "ide-vue",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    }
+  },
+  "readme": "# IDE-Vue package\n\nVue language support for Atom-IDE, powered by [Vue Language Server](https://www.npmjs.com/package/vue-language-server).\n\n## Companion Packages\nThis package is currently a *Work in Progress*.  You should also install:\n\n1. The **atom-ide-ui** package to expose the functionality within Atom\n2. The **language-vue** package to ensure highlighting and activation within Vue files\n\n## Development\n1. Clone this repo `$ git clone https://github.com/rwatts3/atom-ide-vue <my-dir>`\n2. cd to the repos directory `$ cd <my-dir>`\n3. Install Deps `$ npm i`\n4. Start the app in dev mode. `$ npm run dev`\n\n## License\nMIT License.  See [the license](LICENSE.md) for more details.\n\n> This package was [`Made By Ryan Watts`](https://www.ryanwatts.me)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwatts3/atom-ide-vue.git"
+  },
+  "scripts": {},
+  "version": "0.1.9"
+}

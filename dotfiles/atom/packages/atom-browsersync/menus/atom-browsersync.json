@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Browsersync",
+        "command": "atom-browsersync:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Browsersync",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-browsersync:toggle"
+            },
+            {
+              "label": "Open in Browser",
+              "command": "atom-browsersync:open-in-browser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

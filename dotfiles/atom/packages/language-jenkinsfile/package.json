@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+        "spec": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118924-25422-1fkk05p.850dwh4cxr"
+    ]
+  ],
+  "_from": "../d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+  "_id": "language-jenkinsfile@0.1.1",
+  "_inCache": true,
+  "_location": "/language-jenkinsfile",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+    "spec": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+  "_shasum": "433b574e2ca6b508af58bd8e2bd979b60c44d8a0",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118924-25422-1to05fq.ejpsqbyb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118924-25422-1fkk05p.850dwh4cxr",
+  "bugs": {
+    "url": "https://github.com/BastienAr/language-jenkinsfile/issues"
+  },
+  "dependencies": {},
+  "description": "Jenkinsfile language support in Atom",
+  "devDependencies": {
+    "coffeelint": "1.10.1"
+  },
+  "engines": {
+    "atom": ">0.50.0 <2.0.0"
+  },
+  "homepage": "https://github.com/BastienAr/language-jenkinsfile#readme",
+  "license": "MIT",
+  "name": "language-jenkinsfile",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Jenkinsfile language support in Atom\n\n[![Build Status](https://travis-ci.org/BastienAr/language-jenkinsfile.svg?branch=master)](https://travis-ci.org/BastienAr/language-jenkinsfile)\n\n[groovy-language](https://github.com/Jakehp/language-groovy) modifications to adds syntax highlighting and snippets to Jenkinsfile files in Atom.\n\nOriginally forked\nfrom the [groovy-language](https://github.com/Jakehp/language-groovy).\n\nContributions are *greatly* appreciated. Please fork this repository, open a pull request to add snippets, make grammar tweaks, fix issues, etc.\n\n## Installation\n\n```shell\napm install language-jenkinsfile\n```\nIf `apm` is not recognized, open Atom, open the Atom menu, and select \"Install Shell Commands\". Then try running the command again.\n\n## Local Development\n\nYou can use `apm` to link the local copy and install the dependencies:\n\n```shell\n> apm dev language-jenkinsfile /path/to/your/cloned/fork\n```\n\nThe package will appear in the *Development* section of Atom's packages. Re-open your window in Development Mode (*View->Developer->Open in Dev Mode*) and test your changes.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BastienAr/language-jenkinsfile.git"
+  },
+  "scripts": {
+    "test": "coffeelint grammars/jenkinsfile.cson settings/language-jenkinsfile.cson snippets/language-jenkinsfile.cson"
+  },
+  "version": "0.1.1"
+}

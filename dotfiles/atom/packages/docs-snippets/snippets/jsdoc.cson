@@ -1,0 +1,17 @@
+# jsDoc snippet http://usejsdoc.org/
+#
+# Examples
+#
+#  `jsdoc<tab>`
+#
+'.source.js':
+  'jsdoc':
+    'prefix': 'jsdoc'
+    'body': """
+      /**
+       * ${1:Description of what this does.}
+       *
+       * @param $2
+       * @returns $3
+       */
+    """

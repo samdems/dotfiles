@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+        "spec": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118102-24234-pa04c.6meha1yvi"
+    ]
+  ],
+  "_from": "../d-118102-24234-vppgys.gosazia4i/package.tgz",
+  "_id": "language-apache@1.8.0",
+  "_inCache": true,
+  "_location": "/language-apache",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+    "spec": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118102-24234-vppgys.gosazia4i/package.tgz",
+  "_shasum": "f88bf3f495edb473e081dd0024b846c960222186",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118102-24234-vppgys.gosazia4i/package.tgz",
+  "_where": "/tmp/apm-install-dir-118102-24234-pa04c.6meha1yvi",
+  "bugs": {
+    "url": "https://github.com/jacobbednarz/atom-language-apache/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax and snippet support for Apache configuration files",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jacobbednarz/atom-language-apache#readme",
+  "license": "MIT",
+  "name": "language-apache",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Syntax support for Apache configuration files in Atom\n\nContributions are welcome and bonus are awarded for pull requests.\nPlease fork and send a pull request for updates to grammars, snippets or\ndocumentation.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbednarz/atom-language-apache.git"
+  },
+  "version": "1.8.0"
+}

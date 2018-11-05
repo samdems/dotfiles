@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+		"target": "ES6",
+		"module": "commonjs",
+		"outDir": "lib",
+		"declaration": true
+	},
+	"exclude": [
+		"node_modules",
+        "lib",
+		"test",
+		".vscode",
+		"tools"
+	]
+}

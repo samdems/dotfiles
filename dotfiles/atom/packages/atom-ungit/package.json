@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+        "spec": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11898-16794-ea7ph9.b1ys49ggb9"
+    ]
+  ],
+  "_from": "../d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+  "_id": "atom-ungit@0.8.0",
+  "_inCache": true,
+  "_location": "/atom-ungit",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+    "spec": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+  "_shasum": "54fe16ad96b383714fa94a35c773277490592722",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11898-16794-1ty6jtg.sa7tygy14i/package.tgz",
+  "_where": "/tmp/apm-install-dir-11898-16794-ea7ph9.b1ys49ggb9",
+  "activationCommands": {
+    "atom-workspace": [
+      "ungit:toggle"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/codingtwinky/atom-ungit/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "ps-node": "~0.1.6",
+    "ungit": "^1.4.25"
+  },
+  "description": "Atom package for ungit",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/codingtwinky/atom-ungit#readme",
+  "license": "MIT",
+  "main": "./lib/atom-ungit",
+  "name": "atom-ungit",
+  "optionalDependencies": {},
+  "readme": "# ungit package for Atom.io\n\nA project to bring in [ungit](https://github.com/FredrikNoren/ungit) to Atom.io.\n\nEasiest way to work with git in atom.io.\n\n[![Screenshot](https://raw.githubusercontent.com/codingtwinky/atom-ungit/master/screenshot.png)](http://youtu.be/hkBVAi3oKvo)\n\n\n### Key maps:\n* `ctrl-alt-u`: Toggle ungit. If ungit is not running, run ungit and bring up ungit view in atom.io.  If ungit view is in focus, close ungit view but ungit instance will be remained running in background.\n* `ctrl-alt-k`: Run terminate ungit. Terminates ungit server instance that was triggered by atom-ungit and closes ungit view in atom.io.  Does not affect ungit instance that was not tirggered via atom-ungit.\n\n### Known issues:\n* $PATH environment variable is troublesome for OSX users, see [here](https://github.com/joyent/node/issues/3911).  So starting atom via `atom` command may not work with atom-ungit while starting atom via app icon does.  \n\n  This can be fixed by establishing file links.\n  *  Copy the output of `which git`\n  *  `ln -fs <<output of previous command>> /usr/bin/git`\n  *  Copy the output of `which node`\n  *  `ln -fs <<output of previous command>> /usr/bin/node`\n\n### Big thanks to:\n* @FredrikNoren\n* @ibnesayeed\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingtwinky/atom-ungit.git"
+  },
+  "version": "0.8.0"
+}

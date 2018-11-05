@@ -1,0 +1,33 @@
+export ZSH="/home/sam/.oh-my-zsh"
+export TERM="xterm-256color"
+
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context dir )
+POWERLEVEL9K_DISABLE_RPROMPT=true
+
+
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
+plugins=(
+  git
+  k
+)
+eval $(thefuck --alias)
+
+source $ZSH/oh-my-zsh.sh
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/code
+source /usr/local/bin/virtualenvwrapper.sh
+
+if [ "$TMUX" = "" ]; then tmux; fi
+
+alias root='sudo $(fc -ln -1)'
+alias sql="mysql -pg1VEEOQX"
+alias dockers='docker stop $(docker ps -aq)' 
+alias dockerk='docker rm $(docker ps -aq)'
+alias dockersk='docker stop $(docker ps -aq) && docker rm  $(docker ps -aq)';
+dockerenter() {
+  docker exec -it $1 bash
+}
+alias dockere=dockerenter

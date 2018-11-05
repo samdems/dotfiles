@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+        "spec": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118912-4790-1arqkm9.1kmfkfn7b9"
+    ]
+  ],
+  "_from": "../d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+  "_id": "docker@0.8.0",
+  "_inCache": true,
+  "_location": "/docker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+    "spec": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+  "_shasum": "acddedd065bd0689d4ceb5f788fc273908ff528e",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118912-4790-iewwuo.1nup36jemi/package.tgz",
+  "_where": "/tmp/apm-install-dir-118912-4790-1arqkm9.1kmfkfn7b9",
+  "activationCommands": {
+    "atom-workspace": [
+      "docker:toggle",
+      "docker:select-compose-file"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/alanzanattadev/atom-docker/issues"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.4.1",
+    "classnames": "^2.2.5",
+    "immutable": "^3.8.1",
+    "js-yaml": "^3.6.0",
+    "lodash": "^4.12.0",
+    "react-for-atom": "^15.0.2-0",
+    "redux": "^3.5.2"
+  },
+  "description": "Docker integration for Atom",
+  "devDependencies": {
+    "babel-jest": "^12.1.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "flow-bin": "^0.27.0",
+    "jest-cli": "^12.1.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/alanzanattadev/atom-docker#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/docker",
+  "name": "docker",
+  "optionalDependencies": {},
+  "readme": "# docker package\n\nDocker integration for Atom\n\n## Compose\n\n![Compose Panel Screenshot](https://raw.githubusercontent.com/alanzanattadev/atom-docker/master/screenshot-compose-panel.png)\n\nBe productive while working on dockerized project with the Compose Panel for Atom\n\nUsage : select docker:select-compose-file in command palette with compose file opened\n\nFeatures:\n  - Selection of compose file to work with docker:select-compose-file\n  - Selection of more compose files (ex : docker-compose -f ./data.yml -f ./web.yml) with docker:add-compose-file\n  - Compose commands UI for up, push, build, restart, stop, rm on all or specific service\n  - Colored Logs Panel with\n    - auto attachment\n    - detach / reattach buttons\n    - real time output following\n    - unfollow logs when scrolled up and follow when max scrolled down\n  - Service list with color depending on state\n  - On the fly Log Filters with service selection and compose specific logs\n  - Tag and push compose services (requires image and build attributs on service definition)\n\n## TO-DO:\n  - [x] Build compose services with UI\n  - [ ] Build and tags docker images\n  - [x] Tag and Push to Docker Registry\n  - [ ] Command in progress status\n  - [x] Multi compose files\n  - [x] Change service name color if running or exited (green / red)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanzanattadev/atom-docker.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.8.0"
+}

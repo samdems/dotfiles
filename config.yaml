@@ -1,0 +1,30 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_by_default: false
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  d_atom:
+    dst: ~/.atom
+    src: atom
+  d_config:
+    dst: ~/.config
+    src: config
+  f_xmodmap:
+    dst: ~/.Xmodmap
+    src: Xmodmap
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
+profiles:
+  Sam2-CA:
+    dotfiles:
+    - d_config
+    - f_zshrc
+    - f_xmodmap
+    - d_atom

@@ -1,0 +1,15 @@
+export ZSH="/home/sam/.oh-my-zsh"
+
+ZSH_THEME="agnoster"
+
+plugins=(
+  git
+)
+eval $(thefuck --alias)
+
+source $ZSH/oh-my-zsh.sh
+
+alias root='sudo $(fc -ln -1)'
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' config config --local status.showUntrackedFiles no
+

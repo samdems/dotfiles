@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o:ServicesCatalogResults xmlns:o="urn:schemas-microsoft-com:office:office">
+ <o:WebConnectInfo>
+  <o:WebConnect o:ConnectMechanism="3" o:Height="390" o:Width="480" />
+ </o:WebConnectInfo>
+ <o:ServicesCatalog>
+  <o:Service o:Id="WLINBOX_SKYDRIVE" o:SortOrder="2" o:Capabilities="8289" o:ConnectMechanism="1" o:ServiceOwner="2" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>OneDrive</o:Name>
+   <o:Description>Free online storage.  Store, access and share thousands of documents on OneDrive.</o:Description>
+   <o:ServiceUrl>https://g.live.com/8seskydrive/HomePageUrl</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;Skydrive&lt;/Type&gt;&lt;DefaultFolderRelativePath&gt;/^.Documents&lt;/DefaultFolderRelativePath&gt;&lt;DefaultCreateRelativePath&gt;/^.Documents&lt;/DefaultCreateRelativePath&gt;&lt;KeyTip&gt;K&lt;/KeyTip&gt;&lt;RegularExpression&gt;^(?:https)://(?:[a-zA-Z0-9])+\.(?:[a-zA-Z0-9\-]+\.)*docs(?:-df|-bvt|-s3|-gd|-current|-dev)*\.live(?:-tst)?\.net(?:\:[0-9]*)?/([A-Fa-f0-9]*)(?:\/.*)?$&lt;/RegularExpression&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="WLMOUNTED_SKYDRIVE" o:SortOrder="2" o:Capabilities="8193" o:ConnectMechanism="4" o:ServiceOwner="2" o:SupportsMultiple="true" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>OneDrive</o:Name>
+   <o:Description>OneDrive (Mounted)</o:Description>
+   <o:ServiceUrl>https://g.live.com/8seskydrive/HomePageUrl</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;Skydrive&lt;/Type&gt;&lt;DefaultFolderRelativePath&gt;/^.Documents&lt;/DefaultFolderRelativePath&gt;&lt;DefaultCreateRelativePath&gt;/^.Documents&lt;/DefaultCreateRelativePath&gt;&lt;KeyTip&gt;K&lt;/KeyTip&gt;&lt;RegularExpression&gt;^(?:https)://(?:[a-zA-Z0-9])+\.(?:[a-zA-Z0-9\-]+\.)*docs(?:-df|-bvt|-s3|-gd|-current|-dev)*\.live(?:-tst)?\.net(?:\:[0-9]*)?/([A-Fa-f0-9]*)(?:\/.*)?$&lt;/RegularExpression&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="O365_SHAREPOINT" o:SortOrder="3" o:Capabilities="4196355" o:ConnectMechanism="2" o:ServiceOwner="1" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>Office 365 SharePoint</o:Name>
+   <o:Description>SharePoint hosted on Office 365</o:Description>
+   <o:ServiceUrl>https://www.microsoft.com/en-us/office365/online-software.aspx</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint Online&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="ONPREM_SHAREPOINT" o:SortOrder="4" o:Capabilities="2051" o:ConnectMechanism="0" o:ServiceOwner="0" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>OneDrive for Business</o:Name>
+   <o:Description>SharePoint hosted on premises</o:Description>
+   <o:ServiceUrl>https://products.office.com/en-US/sharepoint/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;DefaultFolderRelativePath&gt;/Documents&lt;/DefaultFolderRelativePath&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/onedrive_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="ONPREM_SHAREPOINT_OTHER" o:SortOrder="4" o:Capabilities="1" o:ConnectMechanism="0" o:ServiceOwner="0" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>Other SharePoint Sites</o:Name>
+   <o:Description>Other SharePoint sites hosted on premises</o:Description>
+   <o:ServiceUrl>https://products.office.com/en-US/sharepoint/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;HideIfEmpty&gt;true&lt;/HideIfEmpty&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="TP_DROPBOX" o:SortOrder="40" o:Capabilities="2097153" o:ConnectMechanism="6" o:ServiceOwner="3" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="true">
+   <o:Name>Dropbox</o:Name>
+   <o:Description>Dropbox simplifies the way teams work together with secure, easy-to-use collaboration tools and the fastest, most-reliable file sync platform.</o:Description>
+   <o:ServiceUrl>https://www.dropbox.com/</o:ServiceUrl>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://dropbox.com/static/images/wopi/ios-wopi-icon-16x16.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://dropbox.com/static/images/wopi/ios-wopi-icon-32x32.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://dropbox.com/static/images/wopi/ios-wopi-icon-48x48.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://dropbox.com/static/images/wopi/ios-wopi-icon-64x64.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://dropbox.com/static/images/wopi/ios-wopi-icon-80x80.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://dropbox.com/static/images/wopi/ios-wopi-icon-96x96.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+   <o:Auth>
+    <o:BootStrapperUri>https://wopi.dropbox.com/wopibootstrapper</o:BootStrapperUri>
+    <o:ClientId>29dp5eh71izjx32</o:ClientId>
+    <o:Scope>
+    </o:Scope>
+    <o:RedirectUri>https://teams.microsoft.com/wopi/oauthcallback</o:RedirectUri>
+    <o:TrustedDomains>
+     <o:TrustedDomain>api.dropbox.com</o:TrustedDomain>
+     <o:TrustedDomain>api.dropboxapi.com</o:TrustedDomain>
+     <o:TrustedDomain>dropbox.com</o:TrustedDomain>
+     <o:TrustedDomain>wopi.dropbox.com</o:TrustedDomain>
+     <o:TrustedDomain>wopi-stage.dropbox.com</o:TrustedDomain>
+     <o:TrustedDomain>wopi-test.dropbox.com</o:TrustedDomain>
+    </o:TrustedDomains>
+   </o:Auth>
+  </o:Service>
+  <o:Service o:Id="TP_BOX" o:SortOrder="44" o:Capabilities="2097153" o:ConnectMechanism="6" o:ServiceOwner="3" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="true">
+   <o:Name>Box</o:Name>
+   <o:Description>Box is a secure content management and collaboration platform helping teams and organizations easily share, manage, and collaborate on their most important information.</o:Description>
+   <o:ServiceUrl>https://www.box.com/</o:ServiceUrl>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4016.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4032.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4048.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4064.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4080.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://s3-us-west-2.amazonaws.com/box-pics-pdx//ifs/data/public/office_integration/Logo%4096.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+   <o:Auth>
+    <o:BootStrapperUri>https://account.box.com/api/wopibootstrapper</o:BootStrapperUri>
+    <o:ClientId>piiklhevf7rbou35l5271nqjh85496pu</o:ClientId>
+    <o:Scope />
+    <o:RedirectUri>https://teams.microsoft.com/wopi/oauthcallback</o:RedirectUri>
+    <o:TrustedDomains>
+     <o:TrustedDomain>account.box.com</o:TrustedDomain>
+     <o:TrustedDomain>api.box.com</o:TrustedDomain>
+     <o:TrustedDomain>app.box.com</o:TrustedDomain>
+    </o:TrustedDomains>
+   </o:Auth>
+  </o:Service>
+  <o:Service o:Id="TP_CITRIX" o:SortOrder="73" o:Capabilities="2097153" o:ConnectMechanism="6" o:ServiceOwner="3" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="true">
+   <o:Name>ShareFile</o:Name>
+   <o:Description>Citrix ShareFile helps people exchange files easily, securely, and professionally.</o:Description>
+   <o:ServiceUrl>https://www.sharefile.com/</o:ServiceUrl>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://directtofile.sharefile.com/icons/16_16.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://directtofile.sharefile.com/icons/32_32.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://directtofile.sharefile.com/icons/48_48.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://directtofile.sharefile.com/icons/64_64.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://directtofile.sharefile.com/icons/80_80.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://directtofile.sharefile.com/icons/96_96.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+   <o:Auth>
+    <o:BootStrapperUri>https://directtofile.sharefile.com/v1/wopibootstrapper</o:BootStrapperUri>
+    <o:ClientId>uDoLoMle7x2yQ8jqrtdVglpk4hjCbdEU</o:ClientId>
+    <o:Scope>
+    </o:Scope>
+    <o:RedirectUri>https://teams.microsoft.com/wopi/oauthcallback</o:RedirectUri>
+    <o:TrustedDomains>
+     <o:TrustedDomain>directtofile.sharefile.com</o:TrustedDomain>
+     <o:TrustedDomain>sharefile.com</o:TrustedDomain>
+     <o:TrustedDomain>sharefile.eu</o:TrustedDomain>
+     <o:TrustedDomain>citrixdata.com</o:TrustedDomain>
+     <o:TrustedDomain>securevdr.com</o:TrustedDomain>
+     <o:TrustedDomain>securevdr.eu</o:TrustedDomain>
+     <o:TrustedDomain>sharefilestaging.com</o:TrustedDomain>
+    </o:TrustedDomains>
+   </o:Auth>
+  </o:Service>
+  <o:Service o:Id="OFFOPTIN_DOCSTORAGE_LIMITED" o:SortOrder="99" o:Capabilities="8193" o:ConnectMechanism="0" o:ServiceOwner="3" o:SupportsMultiple="true" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>Third Party Document Storage</o:Name>
+   <o:Description>Third Party Document Storage</o:Description>
+   <o:ServiceUrl>https://www.office.com/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;Third-Party&lt;/Type&gt;&lt;KeyTip&gt;D&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+  </o:Service>
+  <o:Service o:Id="WLMOUNTED_CONNECT" o:SortOrder="99" o:Capabilities="4096" o:ConnectMechanism="4" o:ServiceOwner="2" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>Microsoft account</o:Name>
+   <o:Description>Microsoft account</o:Description>
+   <o:ServiceUrl>https://explore.live.com/home</o:ServiceUrl>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/liveconnect_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/liveconnect_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/liveconnect_48_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="WLMOUNTED_MARKETPLACE" o:SortOrder="99" o:Capabilities="8" o:ConnectMechanism="4" o:ServiceOwner="1" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>Office Store</o:Name>
+   <o:Description>Office Store (Mounted)</o:Description>
+   <o:ServiceUrl>https://www.office.com/</o:ServiceUrl>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/officestore_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/officestore_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/officestore_48_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="O365_SHAREPOINTGROUP" o:SortOrder="99" o:Capabilities="16384" o:ConnectMechanism="2" o:ServiceOwner="1" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>Office 365 SharePoint</o:Name>
+   <o:Description>Office 365 SharePoint Group</o:Description>
+   <o:ServiceUrl>https://www.office.com/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint Online&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="O365MOUNTED_SHAREPOINTGROUP" o:SortOrder="99" o:Capabilities="16384" o:ConnectMechanism="5" o:ServiceOwner="1" o:SupportsMultiple="true" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>Office 365 SharePoint</o:Name>
+   <o:Description>Office 365 SharePoint Group (Mounted)</o:Description>
+   <o:ServiceUrl>https://www.office.com/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint Online&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="O365MOUNTED_SHAREPOINT" o:SortOrder="99" o:Capabilities="4196355" o:ConnectMechanism="5" o:ServiceOwner="1" o:SupportsMultiple="true" o:IsManaged="false" o:IsRemovable="true" o:SupportsNonRoaming="false">
+   <o:Name>Office 365 SharePoint</o:Name>
+   <o:Description>O365 SharePoint (Mounted)</o:Description>
+   <o:ServiceUrl>https://www.microsoft.com/en-us/office365/online-software.aspx</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint Online&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+  <o:Service o:Id="ONPREM_SHAREPOINTGROUP" o:SortOrder="99" o:Capabilities="16384" o:ConnectMechanism="0" o:ServiceOwner="0" o:SupportsMultiple="false" o:IsManaged="false" o:IsRemovable="false" o:SupportsNonRoaming="false">
+   <o:Name>SharePoint</o:Name>
+   <o:Description>SharePoint hosted on premises</o:Description>
+   <o:ServiceUrl>https://www.office.com/</o:ServiceUrl>
+   <o:CapabilitiesMetadata>&lt;Metadata&gt;&lt;Type&gt;SharePoint&lt;/Type&gt;&lt;KeyTip&gt;S&lt;/KeyTip&gt;&lt;/Metadata&gt;</o:CapabilitiesMetadata>
+   <o:Thumbnails>
+    <o:ThumbnailUrl o:Size="16">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_16_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="32">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_32_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="48">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_48_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="64">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_64_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="80">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_80_1.png</o:ThumbnailUrl>
+    <o:ThumbnailUrl o:Size="96">https://cdn.odc.officeapps.live.com/odc/stat/images/sm/sharepoint_96_1.png</o:ThumbnailUrl>
+   </o:Thumbnails>
+  </o:Service>
+ </o:ServicesCatalog>
+</o:ServicesCatalogResults>

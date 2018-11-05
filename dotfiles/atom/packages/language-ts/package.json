@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+        "spec": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118820-14783-1lgze6h.5g0w4uz0k9"
+    ]
+  ],
+  "_from": "../d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+  "_id": "language-ts@1.0.2",
+  "_inCache": true,
+  "_location": "/language-ts",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+    "spec": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+  "_shasum": "d2ccf65ef085e1ed83673ee0be32f5b6826fd8e2",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118820-14783-1cihyhz.3na9i442t9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118820-14783-1lgze6h.5g0w4uz0k9",
+  "bugs": {
+    "url": "https://github.com/wingyplus/language-ts/issues"
+  },
+  "dependencies": {},
+  "description": "Minimal TypeScript and TypeScript React grammars",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/wingyplus/language-ts#readme",
+  "keywords": [
+    "typescript",
+    "react",
+    "ts"
+  ],
+  "license": "MIT",
+  "name": "language-ts",
+  "optionalDependencies": {},
+  "readme": "# Minimal TypeScript and TypeScript React grammars\n\nTypeScript grammar include TypeScript React.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingyplus/language-ts.git"
+  },
+  "version": "1.0.2"
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec="/home/sam/Microsoft Teams-linux-x64/Microsoft Teams"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=Microsoft Teams
+Name=Microsoft Teams
+Comment[en_GB]=Microsoft Teams
+Comment=Microsoft Teams

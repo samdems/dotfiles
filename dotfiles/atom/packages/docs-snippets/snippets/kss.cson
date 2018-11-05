@@ -1,0 +1,30 @@
+# KSS snippets for completing https://github.com/kneath/kss formated comments
+# Completes in `css`, `less`, `scss`
+#
+# Examples
+#
+# `kss<tab>`
+#
+".source.css":
+  "KSS skeleton for css" :
+    "prefix": "kss"
+    "body": """
+      /*
+      ${1:A description of the whole styling group.}
+
+      ${2:.class-name}        - ${3:a class description.}
+
+      ${4:Styleguide version}
+      */
+    """
+
+".source.scss, .source.less" :
+  "KSS skeleton" :
+    "prefix" : "kss"
+    "body" : """
+      // ${1:A description of the whole styling group.}
+      //
+      // ${2:.class-name}        - ${3:a class description.}
+      //
+      // ${4:Styleguide version}
+    """

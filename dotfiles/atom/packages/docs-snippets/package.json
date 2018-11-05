@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+        "spec": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118818-30942-1hdj6az.vomg2xzuxr"
+    ]
+  ],
+  "_from": "../d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+  "_id": "docs-snippets@0.8.0",
+  "_inCache": true,
+  "_location": "/docs-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+    "spec": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+  "_shasum": "a83b147788a00795d3e232b849c359088d8ad6f7",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118818-30942-1iepp2a.f9si1nstt9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118818-30942-1hdj6az.vomg2xzuxr",
+  "bugs": {
+    "url": "https://github.com/jonrohan/docs-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "Snippets for writing documentation in your code.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jonrohan/docs-snippets#readme",
+  "license": "MIT",
+  "main": "./index",
+  "name": "docs-snippets",
+  "optionalDependencies": {},
+  "readme": "## Docs Snippets\n\nSnippets for making documenting your code super fun!\n\n#### Installation\n\nRun the following command:\n\n```sh\napm install docs-snippets\n```\n\nThen reload your Atom.\n\n#### Current Support:\n\n| Format                                 | Tab-Prefix   | Extensions         |\n| -------------                          | :----------: | ------------------ |\n| [Appledoc](./snippets/appledoc.cson)   | `appledoc`   | .h, .m             |\n| [Erlang](./snippets/erlang.cson)       | `edoc`       | .erlang            |\n| [Hubot Scripts](./snippets/hubot.cson) | `hubot`      | .coffee, .js       |\n| [jsDoc](./snippets/jsdoc.cson)         | `jsdoc`      | .js                |\n| [KSS](./snippets/kss.cson)             | `kss`        | .css, .less, .scss |\n| [PHPDoc](./snippets/phpdoc.cson)       | `phpdoc`     | .php               |\n| [TomDoc](./snippets/tomdoc.cson)       | `tom`        | .coffee, .rb       |\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonrohan/docs-snippets.git"
+  },
+  "version": "0.8.0"
+}

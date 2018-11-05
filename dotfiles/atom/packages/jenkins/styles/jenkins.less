@@ -1,0 +1,29 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.jenkins {
+  margin-right: 0;
+  .status {
+    width: 11px;
+    height: 22px;
+    margin-right: 0;
+    background-position: center 3px;
+    background-repeat: no-repeat;
+    &.requesting {
+      background-image: url('atom://jenkins/assets/img/requesting.png');
+    }
+    &.success {
+      background-image: url('atom://jenkins/assets/img/success.png');
+    }
+    &.error {
+      background-image: url('atom://jenkins/assets/img/error.png');
+    }
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+        "spec": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11891-24018-1nwadon.q11ii19k9"
+    ]
+  ],
+  "_from": "../d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+  "_id": "atom-browsersync@0.2.0",
+  "_inCache": true,
+  "_location": "/atom-browsersync",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+    "spec": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+  "_shasum": "5b4e2dc2ac3b2a9df2bb4a9d2bd9d9f21432ab9a",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11891-24018-yyu3ua.guvsp58kt9/package.tgz",
+  "_where": "/tmp/apm-install-dir-11891-24018-1nwadon.q11ii19k9",
+  "author": {
+    "name": "blazeu",
+    "email": "neversleepman@tfwno.gf"
+  },
+  "bugs": {
+    "url": "https://github.com/blazeu/atom-browsersync/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "loophole": "^1.1.0"
+  },
+  "description": "An Atom package to start Browsersync from the editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/blazeu/atom-browsersync#readme",
+  "keywords": [
+    "browsersync",
+    "livereload",
+    "sync"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-browsersync",
+  "optionalDependencies": {},
+  "readme": "# Atom Browsersync\n\nAn [Atom](http://atom.io/) package to start [Browsersync](http://browsersync.io/) server from the editor.\n\n## Usage\n1. Create [`bs-config.js`](https://browsersync.io/docs/options/) file in the project root to configure Browsersync (optional)\n2. Press `Ctrl+Alt+Shift+L` to start Browsersync\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazeu/atom-browsersync.git"
+  },
+  "version": "0.2.0"
+}

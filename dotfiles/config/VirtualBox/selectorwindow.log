@@ -1,0 +1,25 @@
+VirtualBox GUI VM Selector Window 5.2.18 r124319 linux.amd64 (Aug 14 2018 12:02:04) release log
+00:00:00.204465 Log opened 2018-10-31T17:11:23.965399000Z
+00:00:00.204466 Build Type: release
+00:00:00.204468 OS Product: Linux
+00:00:00.204469 OS Release: 4.15.0-36-generic
+00:00:00.204469 OS Version: #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018
+00:00:00.204489 DMI Product Name: System Product Name
+00:00:00.204495 DMI Product Version: System Version
+00:00:00.204554 Host RAM: 32119MB (31.3GB) total, 20269MB (19.7GB) available
+00:00:00.204557 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.204558 Process ID: 1221
+00:00:00.204558 Package type: LINUX_64BITS__UBUNTU_18_04
+00:00:00.204631 Qt version: 5.9.5
+00:00:00.227160 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.598365 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.598944 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.636420 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x27 x 1920x1053
+00:00:00.640815 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1920x0 x 1920x1080
+00:00:00.645179 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 3840x0 x 1920x1080
+00:00:20.689949 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:21.433674 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={7844aa05-b02e-4cdd-a04f-ade4a762e6b7} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:16.555659 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:21.566315 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:22.465552 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:28.639281 GUI: VBoxGlobal::sltHandleCommitDataRequest: Emergency shutdown initiated
